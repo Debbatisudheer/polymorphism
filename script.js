@@ -1,7 +1,8 @@
 $(document).ready(function() {
     $(".draggable").draggable({
         revert: "invalid",
-        helper: "clone"
+        helper: "clone",
+        touch: true // Enable touch support for draggable
     });
 
     $(".droppable").droppable({
