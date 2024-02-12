@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymorphic Price Calculation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="superclass-container" class="container">
+        <h2>Superclass </h2>
+        <div class="superclass draggable" draggable="true" data-price="10">Total calculation method (Drag Me Down) </div>
+    </div>
+    <div id="subclass-containers" class="container">
+        <h2>Subclass </h2>
+        <div id="electronics-container" class="subclass droppable">
+            <h3>Electronics Container</h3>
+            <p> price: Rs. 100</p>
+            <p>Discount: Rs. 10</p>
+        </div>
+        <div id="clothing-container" class="subclass droppable">
+            <h3>Clothing Container</h3>
+             <p>Price: Rs. 800</p>
+            <p>Discount: Rs. 200</p>
+        </div>
+        <div id="book-container" class="subclass droppable">
+            <h3>Book</h3>
+            <p>Price: Rs. 299</p>
+            <p>Gift Coupon: Rs. 10</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
